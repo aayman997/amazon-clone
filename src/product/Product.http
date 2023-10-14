@@ -1,0 +1,31 @@
+### Create a new product
+POST http://localhost:3000/product
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "taco",
+  "price": 4.99,
+  "description": "A Taco"
+}
+
+
+### Get all products
+GET http://localhost:3000/product
+Accept: application/json
+
+
+### Get product by id
+GET http://localhost:3000/product/652ae51bf478460b15fb4321
+
+
+### Update product data by id
+PATCH http://localhost:3000/product/652ae57ff478460b15fb4323
+Content-Type: application/json
+
+{
+  "price": 2.89
+}
+
+### Delete product by id
+DELETE http://localhost:3000/product/652ae9d0fc681cec1484a350
