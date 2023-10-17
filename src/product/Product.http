@@ -16,7 +16,8 @@ Accept: application/json
 
 
 ### Get product by id
-GET http://localhost:3000/api/product/652ae51bf478460b15fb4321
+GET http://localhost:3000/api/product/652ae57ff478460b15fb4323
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjUyYjA2MWJiY2RlODk4ZTAwYzkxNThlIiwibmFtZSI6IkFobWVkIEF5bWFuIiwiZW1haWwiOiJ0ZXN0QHRlc3QuY29tIn0sImlhdCI6MTY5NzU1ODMyNiwiZXhwIjoxNjk3NTYxOTI2fQ.tZgTLzMLFwe4UEoOYU3kusj5IVFEg0K-M8isK0m4EvE
 
 
 ### Update product data by id
