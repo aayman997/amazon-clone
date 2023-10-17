@@ -8,3 +8,14 @@ Content-Type: application/json
   "email": "tes2t@test.com",
   "password": "123456789"
 }
+
+
+### User login
+POST http://localhost:3000/api/auth/login
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "123456789"
+}
